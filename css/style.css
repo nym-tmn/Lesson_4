@@ -1,0 +1,183 @@
+/* Подключенные шрифты */
+
+@import url("https://fonts.googleapis.com/css?family=Bona+Nova:regular,italic,700");
+
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,700;1,400;1,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "ArticaPro";
+	src: url("../fonts/ArticaPro-Bold.woff2") format("woff2"),
+		url("../fonts/ArticaPro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "ArticaPro";
+	src: url("../fonts/ArticaPro.woff2") format("woff2"),
+		url("../fonts/ArticaPro.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+		url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+		url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ---------------------- */
+
+/* Обнуление стилей */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+body {
+	font-family: 'Times New Roman', Georgia, Times, serif;
+
+	/* значение по умолчанию Times New Roman */
+
+	line-height: 1;
+	/* значение по умолчанию приблизительно 1.2 */
+}
+
+/* ------------------------ */
+
+h1{
+	font-family: "ArticaPro", serif;
+	color: #630313;
+	font-size: 60px;
+	font-weight: 700;
+	text-decoration: overline cornflowerblue;
+	padding: 50px 0px 0px 0px;
+	text-shadow: 10px 10px 8px #89c51a;
+	text-indent: 50px ;
+}
+
+.block{
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+
+.level1{
+	font-family: "Montserrat Alternates", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	font-style: italic;
+	text-shadow: -3px -3px 5px #04bb84;
+}
+
+.level2{
+	font-family: "Montserrat Alternates", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.historyh{
+	font-family: "Caveat", cursive;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.history{
+	font-family: "Caveat", cursive;
+	font-size: 25px;
+	text-align: justify;
+	white-space: nowrap;
+}
+
+h2,h3{
+	font-family: "Pacifico", cursive;
+	font-size: 25px;
+	line-height: 150%;
+	text-decoration: underline rgb(4, 133, 219);
+}
+
+.companyh{
+	font-family: "ArticaPro", serif;
+	font-weight: 700;
+}
+
+.company{
+	font-family: "ArticaPro", serif;
+}
+
+ul,ol,p{
+	font-family: "Gilroy",sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+}
+h4{
+	font-family: "Gilroy", sans-serif;
+	font-weight: 700;
+	color: rgba(28, 201, 5, 1.5);
+}
+
+.image {
+	text-align: right;
+}
+
+nav{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	word-spacing: 50px;
+}
+
+.line{
+	text-decoration: line-through crimson;
+}
+
+.textsmall{
+	text-transform: lowercase;
+}
